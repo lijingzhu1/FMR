@@ -16,13 +16,7 @@ unzip dataset.zip
 It will generate four dataset folders in the ./data directory. In our experiments, the datasets used are: `ENTITY`, `RELATION`, `FACT` and `HYBRID`.
 In each dataset, there are five folders for five snapshots.
 
-### Training and evaluation
 
-```
-#train base model LKGE
-python main.py -dataset <dataset_name> -gpu <device_id> -lifelong_name base_model -using_embedding_transfer
-#train our model
-python main.py -dataset <dataset_name> -lifelong_name GKGEL -regular_weight 2
 ```
 In our experiments, the four datasets used are: `ENTITY`, `RELATION`, `FACT` or `HYBRID`, different datasets have different regular weight and reconstructor weight
 #### ENTITY
