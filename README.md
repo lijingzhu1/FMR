@@ -17,7 +17,7 @@ It will generate four dataset folders in the ./data directory. In our experiment
 In each dataset, there are five folders for five snapshots.
 
 
-```
+
 In our experiments, the four datasets used are: `ENTITY`, `RELATION`, `FACT` or `HYBRID`, different datasets have different regular weight and reconstructor weight
 #### ENTITY
 ```
