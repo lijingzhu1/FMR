@@ -9,7 +9,7 @@ Our code is written in Python3.
 - quadprog=0.1.11
 
 ### Model Overview
-![This is the overview of FMR model](figures/overall model.png "Overall Model")
+![This is the overview of FMR model](figures/overall model.png)
 
 ### Dataset
 ```
